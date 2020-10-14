@@ -1,0 +1,2 @@
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.6.2
+RUN elasticsearch-plugin install --batch https://github.com/alexklibisz/elastiknn/releases/download/0.1.0-PRE39/elastiknn-0.1.0-PRE39_es7.6.2.zip

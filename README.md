@@ -7,7 +7,3 @@ For the setup see the official documentation here: https://elastiknn.com/install
 
 And API explanations are provided here: https://elastiknn.com/api/
 
-
-## Time Measurements
-Only word embeddings (~95,000): indexing 
-Word embeddings + 160,000 random vectors: 21:40 min indexing time, 0.08s avg search time
